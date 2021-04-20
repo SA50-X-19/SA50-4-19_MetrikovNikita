@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02160b;
+}
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.photo {
+    background-image: url(./fox/Rectangle.jpg);
+    max-width: 1440px;
+    width: 100%;
+    height: 780px;
+}
+
+.the_logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    height: 60px;
+}
+.photos {
+    background-image: url(./fox/path0.svg);
+    width: 68.2px;
+    height: 60px;
+}
+
+.name {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    justify-content: space-between;
+}
+.search {
+    background-image: url(./fox/Vector.svg);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.nav {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+.up {
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog_contacts {
+    display: flex;
+    align-items: center;
+}
+.text {
+    font-family: manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.text:hover {
+    transform: scale(1.2);
+}
+
+.sign__in {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+.sign__in:active {
+    background: #CD6326;
+    border: 2px solid #CD6326;
+
+}
+.sign__in:hover {
+    background: #CD6326;
+    border: 2px solid #CD6326;
+}
+
+.ttt {
+    font-family: Roboto;
+    color: #F7F7F7;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+    margin: auto;
+}
+.h1 {
+    display: none;
+}
